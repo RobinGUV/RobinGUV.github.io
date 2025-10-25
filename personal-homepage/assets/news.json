@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2025-10-01",
+    "title": "Neue Web-Map zur Vegetationsanalyse online",
+    "image": "assets/project1.jpg",
+    "summary": "Interaktive Web-Map mit Vegetationsindizes und Zeitreihenanalyse. Layer-Optionen und Exportfunktion verfügbar.",
+    "link": "https://example.com/vegetation-map"
+  },
+  {
+    "date": "2025-08-15",
+    "title": "Präsentation beim Kurs GeoInformatik 2",
+    "image": "assets/project2.jpg",
+    "summary": "Ergebnisse des Semesterprojekts wurden vorgestellt. Schwerpunkt: Karten-APIs und Performance.",
+    "link": ""
+  },
+  {
+    "date": "2025-06-30",
+    "title": "Abschluss Projektphase: Karten-API integriert",
+    "image": "assets/project3.jpg",
+    "summary": "Die API-Anbindung ermöglicht dynamische Layer und benutzerdefinierte Styles.",
+    "link": "https://example.com/api-notes"
+  }
+]
