@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_306e4fd8743dde2580079e8564768274 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_306e4fd8743dde2580079e8564768274" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_306e4fd8743dde2580079e8564768274 = L.map(
+                "map_306e4fd8743dde2580079e8564768274",
+                {
+                    center: [40.0, 45.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1942eb3850318d81c81859ce2097456a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1942eb3850318d81c81859ce2097456a.addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var tile_layer_4c84f1d80f068306ae433c83c3e4feae = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4c84f1d80f068306ae433c83c3e4feae.addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var marker_2b7204557fc8bc82b1da325476d3c5ff = L.marker(
+                [48.8584, 2.2945],
+                {
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var icon_8a3499a4ddae8fd49700e8d8cb095e52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d7cb94dffebb32c37a93663c34e0cb0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_87e095408b6d7f1fdafbfa3120833602 = $(`<div id="html_87e095408b6d7f1fdafbfa3120833602" style="width: 100.0%; height: 100.0%;"><b>Eiffelturm</b><br>Paris, Frankreich</div>`)[0];
+                popup_7d7cb94dffebb32c37a93663c34e0cb0.setContent(html_87e095408b6d7f1fdafbfa3120833602);
+            
+        
+
+        marker_2b7204557fc8bc82b1da325476d3c5ff.bindPopup(popup_7d7cb94dffebb32c37a93663c34e0cb0)
+        ;
+
+        
+    
+    
+                marker_2b7204557fc8bc82b1da325476d3c5ff.setIcon(icon_8a3499a4ddae8fd49700e8d8cb095e52);
+            
+    
+            var marker_dbfea9fdcb7bdb0ca260f8fb4df4b693 = L.marker(
+                [41.8902, 12.4922],
+                {
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var icon_d8ff8cacd300334b83f28607eabaf872 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "ok-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23d1f771afd7411a27611c8aa7b66e2e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_225c85040d6370dcbbbed69317589a2d = $(`<div id="html_225c85040d6370dcbbbed69317589a2d" style="width: 100.0%; height: 100.0%;"><b>Kolosseum</b><br>Rom, Italien</div>`)[0];
+                popup_23d1f771afd7411a27611c8aa7b66e2e.setContent(html_225c85040d6370dcbbbed69317589a2d);
+            
+        
+
+        marker_dbfea9fdcb7bdb0ca260f8fb4df4b693.bindPopup(popup_23d1f771afd7411a27611c8aa7b66e2e)
+        ;
+
+        
+    
+    
+                marker_dbfea9fdcb7bdb0ca260f8fb4df4b693.setIcon(icon_d8ff8cacd300334b83f28607eabaf872);
+            
+    
+            var marker_430e56853a44eb9b0020a7d8c0830723 = L.marker(
+                [52.5163, 13.3777],
+                {
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var icon_0970bfd2c237768ac3c48dc6a245f988 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c6bd9b9f1021dd6c7053c4607fdeef0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_796468af1dea52f314c1f149f93befb4 = $(`<div id="html_796468af1dea52f314c1f149f93befb4" style="width: 100.0%; height: 100.0%;"><b>Brandenburger Tor</b><br>Berlin, Deutschland</div>`)[0];
+                popup_0c6bd9b9f1021dd6c7053c4607fdeef0.setContent(html_796468af1dea52f314c1f149f93befb4);
+            
+        
+
+        marker_430e56853a44eb9b0020a7d8c0830723.bindPopup(popup_0c6bd9b9f1021dd6c7053c4607fdeef0)
+        ;
+
+        
+    
+    
+                marker_430e56853a44eb9b0020a7d8c0830723.setIcon(icon_0970bfd2c237768ac3c48dc6a245f988);
+            
+    
+            var marker_6a5cee91bf96a1da5bb6b0c9b3128777 = L.marker(
+                [41.4036, 2.1744],
+                {
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var icon_e966647839719aea858bf1c1399c06c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1abb0eeec5c0e3bd6e6ba5110c9ac0fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c0095156117d9720bcf6cb3109aca4f5 = $(`<div id="html_c0095156117d9720bcf6cb3109aca4f5" style="width: 100.0%; height: 100.0%;"><b>Sagrada Família</b><br>Barcelona, Spanien</div>`)[0];
+                popup_1abb0eeec5c0e3bd6e6ba5110c9ac0fa.setContent(html_c0095156117d9720bcf6cb3109aca4f5);
+            
+        
+
+        marker_6a5cee91bf96a1da5bb6b0c9b3128777.bindPopup(popup_1abb0eeec5c0e3bd6e6ba5110c9ac0fa)
+        ;
+
+        
+    
+    
+                marker_6a5cee91bf96a1da5bb6b0c9b3128777.setIcon(icon_e966647839719aea858bf1c1399c06c6);
+            
+    
+            var marker_6d766a3014a06365f44ff28ee7fa9804 = L.marker(
+                [37.9715, 23.7257],
+                {
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            var icon_f777f9254e0d26d585e68ca7cb8f0275 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0827d0d59971847a61ba530c95d6622a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_258c087cd59e5ee1b5d5f6e96f8d1226 = $(`<div id="html_258c087cd59e5ee1b5d5f6e96f8d1226" style="width: 100.0%; height: 100.0%;"><b>Akropolis</b><br>Athen, Griechenland</div>`)[0];
+                popup_0827d0d59971847a61ba530c95d6622a.setContent(html_258c087cd59e5ee1b5d5f6e96f8d1226);
+            
+        
+
+        marker_6d766a3014a06365f44ff28ee7fa9804.bindPopup(popup_0827d0d59971847a61ba530c95d6622a)
+        ;
+
+        
+    
+    
+                marker_6d766a3014a06365f44ff28ee7fa9804.setIcon(icon_f777f9254e0d26d585e68ca7cb8f0275);
+            
+    
+            map_306e4fd8743dde2580079e8564768274.fitBounds(
+                [[48.8584, 2.2945], [41.8902, 12.4922], [52.5163, 13.3777], [41.4036, 2.1744], [37.9715, 23.7257]],
+                {"padding": [20, 20]}
+            );
+        
+    
+            var layer_control_7680340e00f4a65e343697c2ba417a43_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_1942eb3850318d81c81859ce2097456a,
+                    "Carto Light" : tile_layer_4c84f1d80f068306ae433c83c3e4feae,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_7680340e00f4a65e343697c2ba417a43 = L.control.layers(
+                layer_control_7680340e00f4a65e343697c2ba417a43_layers.base_layers,
+                layer_control_7680340e00f4a65e343697c2ba417a43_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_306e4fd8743dde2580079e8564768274);
+
+        
+    
+            tile_layer_1942eb3850318d81c81859ce2097456a.addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+            tile_layer_4c84f1d80f068306ae433c83c3e4feae.addTo(map_306e4fd8743dde2580079e8564768274);
+        
+    
+                marker_2b7204557fc8bc82b1da325476d3c5ff.setIcon(icon_8a3499a4ddae8fd49700e8d8cb095e52);
+            
+    
+                marker_dbfea9fdcb7bdb0ca260f8fb4df4b693.setIcon(icon_d8ff8cacd300334b83f28607eabaf872);
+            
+    
+                marker_430e56853a44eb9b0020a7d8c0830723.setIcon(icon_0970bfd2c237768ac3c48dc6a245f988);
+            
+    
+                marker_6a5cee91bf96a1da5bb6b0c9b3128777.setIcon(icon_e966647839719aea858bf1c1399c06c6);
+            
+    
+                marker_6d766a3014a06365f44ff28ee7fa9804.setIcon(icon_f777f9254e0d26d585e68ca7cb8f0275);
+            
+</script>
+</html>
